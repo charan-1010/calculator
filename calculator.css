@@ -1,0 +1,74 @@
+h1 {
+
+    font-family: Crafts Story Demo;
+    font-size: 4rem;
+    text-align: center;
+    transition: font-size 1.5s;
+}
+
+h1:hover {
+    font-size: 100px;
+    font-family: Crafts Story Demo;
+}
+
+#res {
+    letter-spacing: 0px !important;
+    width: 350px;
+    height: 30px;
+    text-align: center;
+    border-width: 2px;
+    border-radius: 5%;
+    border-style: dotted dashed solid;
+
+}
+
+#buttons {
+    position: relative;
+    width: 28%;
+    margin-left: 35%;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-width: 10px;
+    border-color: #000;
+    border-style: groove;
+    letter-spacing: 1rem;
+    background-image: url("https://media.discordapp.net/attachments/997267848118403092/1089136095863787621/charan_background_math_calculations_c4a74195-855a-4640-a6af-6f9fa7df0588.png?width=452&height=452");
+    background-size: cover;
+    background-position: top;
+}
+
+button {
+    width: 2.7rem;
+    height: 2.7rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    margin: 2.5rem;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: cyan;
+    border-radius: 10%;
+}
+
+span .calc {
+    background: none;
+    color: rgb(236, 228, 5);
+    border: 0.2rem solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.24s;
+    position: absolute;
+    bottom: -10rem;
+    /* adjust the value to your preference */
+    left: 40%;
+    transform: translateX(-50%);
+}
+
+span .calc:hover {
+    border-color: rgb(236, 144, 5);
+    color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em rgb(236, 144, 5);
+    transform: translateY(-0.25em);
+}
